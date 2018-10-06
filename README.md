@@ -2,8 +2,8 @@
 
 # Jenkins 
 - port 8080
-- username: mohamed
-- password: mohamed 
+- username: devops
+- password: devops 
 
 
 # Artifactory

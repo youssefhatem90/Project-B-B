@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 06:23:57 UTC 2018
+commons-lang-2.3.jar>artifactory-release=
+commons-lang-2.3.jar>central=
+commons-lang-2.3.pom>artifactory-release=
+commons-lang-2.3.pom>central=

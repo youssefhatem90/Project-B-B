@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 06:24:05 UTC 2018
+plexus-build-api-0.0.4.jar>artifactory-release=
+plexus-build-api-0.0.4.pom>artifactory-release=
+plexus-build-api-0.0.4.jar>central=
+plexus-build-api-0.0.4.pom>central=

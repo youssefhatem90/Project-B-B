@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 06:23:57 UTC 2018
+maven-common-artifact-filters-1.4.jar>artifactory-release=
+maven-common-artifact-filters-1.4.pom>artifactory-release=
+maven-common-artifact-filters-1.4.jar>central=
+maven-common-artifact-filters-1.4.pom>central=

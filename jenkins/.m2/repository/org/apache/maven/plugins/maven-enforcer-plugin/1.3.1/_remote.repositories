@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 06:23:42 UTC 2018
+maven-enforcer-plugin-1.3.1.jar>central=
+maven-enforcer-plugin-1.3.1.pom>central=
+maven-enforcer-plugin-1.3.1.jar>artifactory-release=
+maven-enforcer-plugin-1.3.1.pom>artifactory-release=

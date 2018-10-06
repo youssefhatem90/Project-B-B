@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 23 06:24:25 UTC 2018
+plexus-archiver-2.1.pom>central=
+plexus-archiver-2.1.jar>artifactory-release=
+plexus-archiver-2.1.pom>artifactory-release=
+plexus-archiver-2.1.jar>central=

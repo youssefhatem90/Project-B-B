@@ -1,4 +1,4 @@
-## Jenkins/Java/Artifactory integration 
+## Jenkins/Java/Artifactory/Docker/Docker-compose/Selenium integration 
 
 This Project show how to connect between a java project in jenkins and Artifactory ( Repository Manager ) and SonarQube ( Code Quality ) also Docker/Docker-Compose  and Selenium 
    

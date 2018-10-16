@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-10-06 22:22:11.615 UTC</timestamp>
+  <original>
+    <name>java-testapp-sonarqube/devopsarea:devopsarea</name>
+    <number>5</number>
+  </original>
+  <md5sum>288e15f8e70f8e496b07185f59065ace</md5sum>
+  <fileName>devopsarea:devopsarea-1.0.war</fileName>
+  <usages>
+    <entry>
+      <string>java-testapp-sonarqube</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>java-testapp-sonarqube/devopsarea:devopsarea</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

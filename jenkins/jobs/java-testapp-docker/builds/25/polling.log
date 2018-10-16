@@ -1,0 +1,18 @@
+Started on Oct 10, 2018 7:48:54 PM
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision 9e418555cacbafd0f5857d3bf7246455fde0b27f (refs/remotes/origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/zeineldin/Java-testapp.git # timeout=10
+Fetching upstream changes from https://github.com/zeineldin/Java-testapp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/zeineldin/Java-testapp.git +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/dev
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 9e418555cacbafd0f5857d3bf7246455fde0b27f..2193182f201e324a6682b42a6b488514cb1ca12c # timeout=10
+Done. Took 4.2 sec
+Changes found

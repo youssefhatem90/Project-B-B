@@ -3,14 +3,20 @@ services:
 
   jenkins:
     image: jenkinsci/jenkins
+    privileged: true
+    user: root
     ports:
       - "8080:8080"
       - "50000:50000"
     container_name: jenkins
     links:
       - artifactory
+      - sonarqube
     volumes: 
       - ./jenkins:/var/jenkins_home:rw
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin/docker:/usr/bin/docker 
+
  
   artifactory:
     image: mattgruter/artifactory
@@ -19,3 +25,11 @@ services:
     container_name: artifactory
     volumes: 
       - ./artifactory:/artifactory:rw
+
+  sonarqube:
+    image: sonarqube:6.7-alpine
+    ports:
+      - 9000:9000
+      - 9092:9092
+    container_name: sonarqube
+

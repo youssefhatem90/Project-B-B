@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <maven2-moduleset plugin="maven-plugin@3.1.2">
+  <actions/>
   <description>This is a test app which will build the test-java-app from&#xd;
 &#xd;
 https://github.com/zeineldin/Java-testapp</description>
@@ -27,6 +28,10 @@ https://github.com/zeineldin/Java-testapp</description>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>devopsarea</groupId>
+    <artifactId>devopsarea</artifactId>
+  </rootModule>
   <goals>install</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>

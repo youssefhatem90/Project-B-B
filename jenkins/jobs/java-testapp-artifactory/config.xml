@@ -68,10 +68,8 @@ and Artifactory container  </description>
         </deploySnapshotRepository>
         <stagingPlugin>
           <pluginName>None</pluginName>
-          <paramMap/>
         </stagingPlugin>
         <userPluginKey>None</userPluginKey>
-        <userPluginParams></userPluginParams>
       </deployerDetails>
       <deployArtifacts>true</deployArtifacts>
       <artifactDeploymentPatterns>

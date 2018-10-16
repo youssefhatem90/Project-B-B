@@ -1,0 +1,126 @@
+Started by user [8mha:////4OahvNbGsajhC2kru5bzTyxZi9bGWdZ6evA8Db95yGpbAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIIO7hIFHv7Q4tUg/JbUsv6AYAGoIjprBAAAA[0mdevops area
+Building in workspace /var/jenkins_home/workspace/java-testapp-docker
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/zeineldin/Java-testapp.git # timeout=10
+Fetching upstream changes from https://github.com/zeineldin/Java-testapp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/zeineldin/Java-testapp.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c9e3c1363ba5b649d78a1328263bd83eeaa570e3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c9e3c1363ba5b649d78a1328263bd83eeaa570e3
+Commit message: "Update HelloWorld.java"
+ > git rev-list --no-walk c9e3c1363ba5b649d78a1328263bd83eeaa570e3 # timeout=10
+[java-testapp-docker] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/devops-maven/bin/mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< devopsarea:devopsarea >------------------------
+[INFO] Building devopsarea 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ devopsarea ---
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ devopsarea ---
+[8mha:////4KKqmdxN56zAice1Snr4grMbPcbqyh5+sHr7wKf2f7xBAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-testapp-docker/src/main/resources
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ devopsarea ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ devopsarea ---
+[8mha:////4KKqmdxN56zAice1Snr4grMbPcbqyh5+sHr7wKf2f7xBAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-testapp-docker/src/test/resources
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ devopsarea ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ devopsarea ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ devopsarea ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [devopsarea] in [/var/jenkins_home/workspace/java-testapp-docker/target/devopsarea-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/jenkins_home/workspace/java-testapp-docker/src/main/webapp]
+[INFO] Webapp assembled in [516 msecs]
+[INFO] Building war: /var/jenkins_home/workspace/java-testapp-docker/target/devopsarea-1.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4PhNESLLsZZGMd8gw38Wm1lc5Eg+dkSYTPMWn/q4flRvAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ devopsarea ---
+[INFO] Installing /var/jenkins_home/workspace/java-testapp-docker/target/devopsarea-1.0.war to /root/.m2/repository/devopsarea/devopsarea/1.0/devopsarea-1.0.war
+[INFO] Installing /var/jenkins_home/workspace/java-testapp-docker/pom.xml to /root/.m2/repository/devopsarea/devopsarea/1.0/devopsarea-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.327 s
+[INFO] Finished at: 2018-10-10T17:22:06Z
+[INFO] ------------------------------------------------------------------------
+[java-testapp-docker] $ /bin/sh -xe /tmp/jenkins4978202517901664807.sh
++ pwd
+/var/jenkins_home/workspace/java-testapp-docker
++ docker ps -a
+CONTAINER ID        IMAGE                         COMMAND                  CREATED             STATUS                          PORTS                                              NAMES
+b57c82609cb3        httpd:2.4                     "httpd-foreground"       3 days ago          Up 3 days                       0.0.0.0:9999->80/tcp                               selenium-report
+731781ec0170        maven                         "/usr/local/bin/mvn-…"   3 days ago          Restarting (1) 37 seconds ago                                                      maven
+00c057e2b444        docker-image                  "catalina.sh run"        3 days ago          Up 3 days (unhealthy)           0.0.0.0:80->8080/tcp                               java-app
+56f729e0dba9        selenium/node-firefox-debug   "/opt/bin/entry_poin…"   3 days ago          Up 3 days                       0.0.0.0:5900->5900/tcp                             selenium-firefox
+7da084f15915        selenium/node-chrome-debug    "/opt/bin/entry_poin…"   3 days ago          Up 3 days                       0.0.0.0:5901->5900/tcp                             selenium-chrome
+ce9d6b28a9a8        selenium/hub                  "/opt/bin/entry_poin…"   3 days ago          Up 3 days                       0.0.0.0:4444->4444/tcp                             selenium-hub
+3d5eeeadeb1e        jenkinsci/jenkins             "/sbin/tini -- /usr/…"   3 days ago          Up 3 days                       0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   jenkins
++ docker build -t mzain/test5 .
+Sending build context to Docker daemon   13.8MB
+Step 1/8 : FROM maven:3.5.2-jdk-8-alpine AS MAVEN
+ ---> 293423a981a7
+Step 2/8 : COPY pom.xml /tmp/
+ ---> Using cache
+ ---> 1e9b8f0f0cc1
+Step 3/8 : COPY src /tmp/src/
+ ---> Using cache
+ ---> c568ebd1bf09
+Step 4/8 : WORKDIR /tmp/
+ ---> Using cache
+ ---> 588d02c4c633
+Step 5/8 : RUN mvn package
+ ---> Using cache
+ ---> 8fcb658b290b
+Step 6/8 : FROM tomcat:9.0-jre8-alpine
+ ---> 4749f412e2cc
+Step 7/8 : COPY --from=MAVEN /tmp/target/devopsarea-1.0.war $CATALINA_HOME/webapps/devopsarea-1.0.war
+ ---> Using cache
+ ---> 41cd42454cbf
+Step 8/8 : HEALTHCHECK --interval=1m --timeout=3s CMD wget --quiet --tries=1 --spider http://localhost:8080/wizard/ || exit 1
+ ---> Using cache
+ ---> aa5f405f6dc5
+Successfully built aa5f405f6dc5
+Successfully tagged mzain/test5:latest
++ sh java-testapp-dockerdocker.sh mzain/test5
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+The push refers to repository [docker.io/mzain/test5]
+11adb1afdd19: Preparing
+903a722d1175: Preparing
+55b259be24fc: Preparing
+48d81fd49c56: Preparing
+12c374f8270a: Preparing
+0c3170905795: Preparing
+df64d3292fd6: Preparing
+0c3170905795: Waiting
+df64d3292fd6: Waiting
+55b259be24fc: Mounted from mzain/java-app-1
+12c374f8270a: Mounted from mzain/java-app-1
+903a722d1175: Mounted from mzain/java-app-1
+48d81fd49c56: Mounted from mzain/java-app-1
+0c3170905795: Mounted from mzain/java-app-1
+df64d3292fd6: Mounted from mzain/java-app-1
+11adb1afdd19: Pushed
+latest: digest: sha256:867b82bbedd4ec14a77a305c770479f9f23aa79eb8229e62ad66921d933d7c0e size: 1785
+$ docker-compose -f /var/jenkins_home/workspace/java-testapp-docker/docker-compose.yml up -d
+.FileNotFoundError: [Errno 2] No such file or directory: '/var/jenkins_home/workspace/java-testapp-docker/docker-compose.yml'
+Build step 'Docker Compose Build Step' changed build result to FAILURE
+Finished: FAILURE

@@ -9,3 +9,17 @@ sudo -i
 exit 
 ifcon
 exit 
+docker-java-home
+which  docker
+pwd
+exit 
+docker ps -a 
+docker ps -a 
+exit
+sud -i 
+sudo -i 
+sudo docker 
+vim docker-java-home
+exit 
+exir 
+exit 

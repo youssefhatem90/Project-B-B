@@ -5,11 +5,27 @@
   <fileName>org.slf4j:slf4j-api-1.7.12.jar</fileName>
   <usages>
     <entry>
+      <string>java-testapp-artifactory/devopsarea:devopsarea</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
       <string>java-testapp-artifactory</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>java-testapp-sonarqube</string>
+      <ranges>5-6</ranges>
+    </entry>
+    <entry>
+      <string>java-testapp/devopsarea:devopsarea</string>
       <ranges>1</ranges>
     </entry>
     <entry>
-      <string>java-testapp-artifactory/devopsarea:devopsarea</string>
+      <string>java-testapp-sonarqube/devopsarea:devopsarea</string>
+      <ranges>5-6</ranges>
+    </entry>
+    <entry>
+      <string>java-testapp</string>
       <ranges>1</ranges>
     </entry>
   </usages>

@@ -30,7 +30,7 @@
   <authToken>4567Moamedhhws</authToken>
   <triggers>
     <hudson.triggers.SCMTrigger>
-      <spec>*/3 * * * * </spec>
+      <spec></spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
     </hudson.triggers.SCMTrigger>
   </triggers>
@@ -47,14 +47,14 @@
     <hudson.tasks.Shell>
       <command> 
 #docker ps -a 
-docker build -t mzain/testall-devops .
+docker build -t image-devops .
 
 #curl -L &quot;https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
 #chmod +x /usr/local/bin/docker-compose
 #docker stop tomcat || true &amp;&amp; docker rm tomcat || true
 #docker stop tomcat; docker rm tomcat
-sh java-testapp-dockerdocker.sh mzain/testall-devops
-#docker run -d --rm --name tomcat -p 80:8080 image-devops
+#sh java-testapp-dockerdocker.sh mzain/testall-devops
+docker run -d --rm --name tomcat -p 80:8080 image-devops
 
 
 #docker-compose up -d -f selenium/Project-A-B/docker-compose.yml . </command>

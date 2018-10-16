@@ -1,0 +1,158 @@
+{
+  "version" : "1.0.1",
+  "name" : "java-testapp-artifactory",
+  "number" : "6",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.5.4"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.142"
+  },
+  "started" : "2018-10-06T12:54:21.339+0000",
+  "durationMillis" : 15728,
+  "principal" : "devops",
+  "artifactoryPluginVersion" : "2.16.2",
+  "url" : "http://127.0.0.1:8080/job/java-testapp-artifactory/6/",
+  "vcs" : [ {
+    "revision" : "add5bd87e100db3ea726332679e9c2a44166ca38",
+    "url" : "https://github.com/zeineldin/Java-testapp.git"
+  } ],
+  "vcsRevision" : "add5bd87e100db3ea726332679e9c2a44166ca38",
+  "vcsUrl" : "https://github.com/zeineldin/Java-testapp.git",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : { },
+    "id" : "devopsarea:devopsarea:1.0",
+    "artifacts" : [ {
+      "type" : "war",
+      "sha1" : "05ba9a028a58e232d3cdd9ed960cadf7cfc87c81",
+      "md5" : "ed4c3997e09a6cc54ddc1785378d3377",
+      "name" : "devopsarea-1.0.war"
+    }, {
+      "type" : "pom",
+      "sha1" : "de015dffa825fc4dcb29bfa86f8b4ae4a34fa602",
+      "md5" : "560c0b74290d55fd45778907193c3779",
+      "name" : "devopsarea-1.0.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "a7ce8b11d340e152dd7dc94e7605c84230f05cf5",
+      "md5" : "57099065daabc1ff12fb469be0d38970",
+      "id" : "org.eclipse.jetty:jetty-servlet:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f7cdf36509f8b9d8de49ed60dcb215aa92c36e41",
+      "md5" : "62d3ed5df039eaf0390dbce86833d8cc",
+      "id" : "org.eclipse.jetty.websocket:websocket-client:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "be1525f9e86d45ff163394c573ff46773fb40812",
+      "md5" : "efde69dd5e5c239407e8409478df4dd8",
+      "id" : "org.eclipse.jetty.websocket:websocket-api:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "5a811cf50295ddae7df488e62662524380f18821",
+      "md5" : "f8e76c1e84c4d3b8aadf246e018a5f75",
+      "id" : "org.eclipse.jetty:jetty-http:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b0326d867f1ecbc8d624f64175d2aa5809bb0599",
+      "md5" : "c910339cb1a4bfc18b5ead614951a7da",
+      "id" : "com.sparkjava:spark-core:2.3",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "194f37706614f236bfbf384c1e7cf531771b38f7",
+      "md5" : "74c5eada75a1d412e71549b8ab8abcd6",
+      "id" : "org.eclipse.jetty:jetty-security:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3cd63d075497751784b2fa84be59432f4905bf7c",
+      "md5" : "79de69e9f5ed8c7fcb8342585732bbf7",
+      "id" : "javax.servlet:javax.servlet-api:3.1.0",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "d53622049200cee5c344b29c848d581aa876f93e",
+      "md5" : "110393f83052e16bd8325990ad626131",
+      "id" : "org.eclipse.jetty:jetty-server:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8e20852d05222dc286bf1c71d78d0531e177c317",
+      "md5" : "68910bf95dbcf90ce5859128f0f75d1e",
+      "id" : "org.slf4j:slf4j-api:1.7.12",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "403f4956c46fc5d76257148b5ad36c1e1ca485cd",
+      "md5" : "b0731ef5aafe172fba859eb9f84fa1ef",
+      "id" : "org.eclipse.jetty.websocket:websocket-servlet:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "d064e05b277e7c5522f211c590a04adf99060bcd",
+      "md5" : "c646f75d7baaaeceeb2231624632cc61",
+      "id" : "org.eclipse.jetty:jetty-xml:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b43bc3a2fcabd1eb04a522b251d98efd010a2c0f",
+      "md5" : "6141414f17a8d42fd3c71fa07b54e984",
+      "id" : "org.eclipse.jetty.websocket:websocket-server:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "96eab74d8886ee9d51b6a3eeab9744807e842169",
+      "md5" : "a63c67d8df46f890ba8d7af5a28d6244",
+      "id" : "org.eclipse.jetty:jetty-util:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "022bd4ad4856527847772f975a997f17da1e6766",
+      "md5" : "84bfbe27bae498f4db0a8cf7eeddde69",
+      "id" : "org.eclipse.jetty:jetty-io:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "bd2abf31292508104bacfaba7eceb88d7d5f9ad0",
+      "md5" : "7131941d510fced4cc9540c6479dcdf4",
+      "id" : "org.eclipse.jetty.websocket:websocket-common:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b4bcbd3c978b587c6e4ca13d2ac90bd25ed2c3a2",
+      "md5" : "f22a58d3fe6a54b32a4ebc85b5ba4150",
+      "id" : "org.eclipse.jetty:jetty-webapp:9.3.2.v20150730",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "42db62298b899818ff17352cbc00050e940bbfb0",
+      "md5" : "cb57410c6be440d04777d60ad4e17dcd",
+      "id" : "org.slf4j:slf4j-simple:1.7.12",
+      "scopes" : [ "compile" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}

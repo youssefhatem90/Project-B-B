@@ -1,0 +1,6 @@
+projectKey=java-test
+serverUrl=http://sonarqube:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://sonarqube:9000/dashboard/index/java-test
+ceTaskId=AWZJWZYbqfySfAmrCl8x
+ceTaskUrl=http://sonarqube:9000/api/ce/task?id=AWZJWZYbqfySfAmrCl8x

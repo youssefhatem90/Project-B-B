@@ -32,3 +32,8 @@ Configured Jobs
 # Selenium: 
 
 docker-compose file 
+
+# if you are going yo use Ubuntu please do the following 
+
+ - rename docker-compose.yml-ubuntu docker-compose.yml 
+--> note : it will use the Dockerfile 
